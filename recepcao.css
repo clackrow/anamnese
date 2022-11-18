@@ -1,0 +1,66 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHVycGxlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-position: center;
+    background-size: 200%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    caret-color: transparent;
+}
+
+
+.main_window {
+    background-color: white;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    height: 600px;
+    margin-top: 5vh;
+    border-radius: 10px;
+}
+
+.title {
+    background-color: rgb(255, 234, 252);
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.main_buttons {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    height: 40vh;
+    margin-top: 10%;
+}
+
+.main_buttons button {
+    width: 45%;
+    height: 40vh;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: large;
+}
+
+.view_waiting_room {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.view_waiting_room button {
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 50px;
+    font-size: large;
+}
+
+
+button {
+    background-color: rgb(255, 223, 251);
+}
+
+button:active {
+    border: 1px solid black;
+    font-size: medium;
+}

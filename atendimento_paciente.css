@@ -1,0 +1,51 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHVycGxlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-position: center;
+    background-size: 300%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    caret-color: transparent;
+}
+
+.main_window {
+    background-color: white;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    height: 600px;
+    margin-top: 5vh;
+    border-radius: 10px;
+}
+
+.title {
+    background-color: rgb(255, 234, 252);
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.sub_header {
+    width: 95%;
+    margin: auto;
+}
+
+.interview_input {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+
+.interview_input textarea {
+    resize: none;
+    width: 99%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    height: 35vh;
+}
+
+.buttons_place {
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: right;
+}
+

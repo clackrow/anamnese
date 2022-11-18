@@ -1,0 +1,123 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHVycGxlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-position: center;
+    background-size: 300%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    caret-color: transparent;
+}
+
+
+
+.main_window {
+    background-color: white;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    height: 600px;
+    margin-top: 5vh;
+    border-radius: 10px;
+}
+
+.main_infos {
+    height: 150px;
+}
+
+.waiting_room {
+    margin-top: -20px;
+    height: 450px;
+}
+
+
+.scrollable {
+    background-color: rgb(241, 241, 241);
+    overflow: scroll;
+    width: 95%;
+    margin: auto;
+    overflow-x: hidden;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.table_title {
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.table_title p {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.patient_waiting {
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.patient_name {
+    width: 32%;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.patient_name p {
+    margin-top: 0px;
+}
+
+.patient_age {
+    width: 5%;
+    height: 30px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: -46px;
+}
+
+.arrival_time {
+    height: 30px;
+    width: 10%;
+    margin-left: 370px;
+    margin-top: -45px;
+    text-align: center;
+}
+
+.patient_buttons {
+    width: 30%;
+    height: 30px;
+    text-align: right;
+    margin-right: 10px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+
+.patient_buttons button {
+    border: 1px solid gray;
+    width: auto;
+    border-radius: 5px;
+}
+
+.patient_buttons button:hover {
+    background-color: gainsboro;
+}
+
+hr {
+    width: 95%;
+}
+
+.title_age {
+    width: 10%;
+    margin-top: -45px;
+    margin-left: 300px;
+}
+
+.title_time {
+    width: 10%;
+    margin-top: -40px;
+    margin-left: 390px;
+}
+
